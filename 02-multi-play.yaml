@@ -11,3 +11,9 @@
   - name: PLAY-02
     ansible.builtin.debug:
      msg: "This is fom PLAY-02 AND TASK-01"
+
+- name: play-03
+  hosts: web
+  tasks:
+  - name: play-03
+    ansible.builtin.debug:
