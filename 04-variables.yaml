@@ -2,5 +2,5 @@
   hosts: web
   tasks:
   - name: pint the information
-    ansible.builtin.debug
+    ansible.builtin.debug:
      msg: "Hi i am learning devops with aws, Dation is 120hrs, Tineer: siva kmar redyy M"
