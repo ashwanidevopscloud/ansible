@@ -1,0 +1,16 @@
+- name: check given numbe is gate than 20 or not?
+  hosts: web
+  vars_prompt:
+   - name: my_NuMBER
+     prompt: Please enter the number
+     private: false
+  tasks:
+  - name: gven number is lessthan 
+    ansible.builtin.debug:
+     msg: "given nmber is  lessthan 20 {{my_NuMBER}}"
+    when: my_NuMBER | int < 20
+  
+  - name: given nmber is grater
+    ansible.builtin.debug:
+     msg: "Given number is graterthan 20 {{my_NuMBER}}"
+    when: my_NuMBER | int >= 20
