@@ -1,0 +1,9 @@
+- name: variables from the files
+  hosts: web
+  become: yes
+  vars-files:
+   -vars.yaml
+  tasks: 
+  - name: vaiables from the files i am getting
+    ansible.builtin.debug:
+     msg: "Hi I am learning {{ COuRSE }}, Dration is {{DuRATION}}, trainer is {{TRAINER}}"

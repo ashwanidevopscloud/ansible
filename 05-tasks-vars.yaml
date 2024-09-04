@@ -7,6 +7,6 @@
   tasks:
   - name: print te infomation
     vars: #task level vaiables
-     COuRSE: "aANSIBLE"
+     COuRSE: "ANSIBLE"
     ansible.builtin.debug:
      msg: "Hi I am trainer {{ COuRSE}}, Dration is: {{DuRATION}}, Trainer: {{TRAINER}}"
