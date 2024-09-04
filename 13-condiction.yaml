@@ -3,4 +3,8 @@
   tasks:
   - name: user exists (or) not check
     ansible.builtin.command: id expense
-    
+    register: user
+
+  - name: print te infomation
+    ansible.builtin.debug:
+     msg: "user info: {{user}}
