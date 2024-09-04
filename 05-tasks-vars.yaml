@@ -1,0 +1,6 @@
+- name: vaiables to print
+  hosts: web
+  tasks:
+  - name: print te infomation
+    ansible.builtin.debug:
+     msg: "Hi I am trainer Devops with Aws, Dration is: 120hrs, Trainer: siva reddy M"
