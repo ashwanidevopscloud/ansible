@@ -1,5 +1,5 @@
 - name: data types
-  hosts: web
+  hosts: local
   vars:
    cose: "Devops with aws" # sting
    time: 120 #nmberu
