@@ -1,6 +1,6 @@
 - name: vaiables to print
   hosts: web
-  vars:
+  vars: # play level variables
    COuRSE: "DEVOPS WITH AWS"
    DuRATION: "120HRS"
    TRAINER: "SIVA KuMA REDDY M"
