@@ -3,8 +3,8 @@
   vars:
    corse: "i am coming from play level variables"
    time: "6hs"
-  vars_files:
-   - vars.yaml
+  # vars_files:
+  #  - vars.yaml
   vars_prompt:
    - name: corse
      prompt: please enetr the name
