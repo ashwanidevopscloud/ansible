@@ -8,7 +8,7 @@
   vars_prompt:
    - name: corse
      prompt: please enetr the name
-     name: time
+   - name: time
      prompt: please enetr the hors time
   tasks:
   - name: vaiables from inventory
