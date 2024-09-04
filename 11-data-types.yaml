@@ -1,4 +1,4 @@
-- name: data taypes
+- name: data types
   hosts: web
   vars:
    cose: "Devops with aws" # sting
@@ -10,7 +10,7 @@
     - ansible
     - aws
     - terraform
-  tools: #map/Dict
+   tools: #map/Dict
       ci: jenkins #sting
       cm: ansible
       clod: aws 
