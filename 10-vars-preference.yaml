@@ -5,11 +5,11 @@
    time: "6hs"
   # vars_files:
   #  - vars.yaml
-  vars_prompt:
-   - name: corse
-     prompt: please enetr the name
-   - name: time
-     prompt: please enetr the hors time
+  # vars_prompt:
+  #  - name: corse
+  #    prompt: please enetr the name
+  #  - name: time
+  #    prompt: please enetr the hors time
   tasks:
    - name: vaiables from inventory
     #  vars:
