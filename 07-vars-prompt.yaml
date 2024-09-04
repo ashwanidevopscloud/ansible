@@ -1,0 +1,14 @@
+- name: vaiables from the prompt
+  hosts: web
+  vas_pompt:
+   - name: COuRSE
+     prompt: Please enter the cousre name
+   - name: TRAINER
+     prompt: enter the trainer name
+   - name: DuRATION
+     prompt: please enter the trainer name
+
+  tasks:
+  - name: variable from the pompt coming...
+    ansible.builtin.debug:
+     msg: "Hi, I am LEANING {{COuRSE}}, FROM dration is {{DuRATION}} TRAINER IS {{TRAINER}}, "
