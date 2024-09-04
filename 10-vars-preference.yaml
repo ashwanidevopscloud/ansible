@@ -12,8 +12,8 @@
      prompt: please enetr the hors time
   tasks:
    - name: vaiables from inventory
-     vars:
-      corse: "i am coming from task level  variables"
-      time: "404hs"
+    #  vars:
+    #   corse: "i am coming from task level  variables"
+    #   time: "404hs"
      ansible.builtin.debug:
       msg: "Hi, i am learning {{corse}} time is {{time}}"
