@@ -10,7 +10,7 @@
     - ansible
     - aws
     - terraform
-    tools: #map/Dict
+  tools: #map/Dict
       ci: jenkins #sting
       cm: ansible
       clod: aws 
