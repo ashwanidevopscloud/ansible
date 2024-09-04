@@ -1,0 +1,6 @@
+- name: vaiables from the argments
+  hosts: web
+  tasks:
+   - name:
+     ansible.builtin.debug:
+      msg: "Hi i am {{CORSE}} TIME IS {{TIME}} TRAINER {{TRAINER}}"
