@@ -1,0 +1,18 @@
+- name: variables from pefrence order
+  hosts: web
+  vars:
+   corse: "i am coming from play level variables"
+   time: "6hs"
+  vars_files:
+   - vars.yaml
+  vars_prompt:
+   - name: corse
+     prompt: please enetr the name
+     name: time
+     prompt: please enetr the hors time
+  tasks:
+  - name: vaiables from inventory
+    corse: "i am coming from task level  variables"
+    time: "404hs"
+    ansible.builtin.debug:
+     msg: "Hi, i am learning {{corse}} time is {{time}}"
