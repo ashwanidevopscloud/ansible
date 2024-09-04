@@ -1,6 +1,6 @@
 - name: vaiables from the prompt
   hosts: web
-  vars_pompt:
+  vars_prompt:
    - name: COuRSE
      prompt: Please enter the cousre name
    - name: TRAINER
