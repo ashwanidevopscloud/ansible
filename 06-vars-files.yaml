@@ -1,6 +1,6 @@
-- name: variables from the files
+- name: variables from files
   hosts: web
-  vars-files:
+  vars_files:
    -vars.yaml
   tasks: 
   - name: vaiables from the files i am getting
