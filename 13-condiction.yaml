@@ -7,4 +7,4 @@
 
   - name: print te infomation
     ansible.builtin.debug:
-     msg: "user info: {{USER}}
+     msg: "user info: {{USER}}"
