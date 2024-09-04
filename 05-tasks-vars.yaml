@@ -6,5 +6,7 @@
    TRAINER: "SIVA KuMA REDDY M"
   tasks:
   - name: print te infomation
+    vars: #task level vaiables
+     COuRSE: "aANSIBLE"
     ansible.builtin.debug:
      msg: "Hi I am trainer {{ COuRSE}}, Dration is: {{DuRATION}}, Trainer: {{TRAINER}}"
