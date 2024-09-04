@@ -1,0 +1,6 @@
+- name: use exists or not we ae checking
+  hosts: web
+  tasks:
+  - name: user exists (or) not check
+    ansible.builtin.command: id expense
+    
