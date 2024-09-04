@@ -1,6 +1,10 @@
 - name: vaiables to print
   hosts: web
+  vars:
+   COuRSE: "DEVOPS WITH AWS"
+   DuRATION: "120HRS"
+   TRAINER: "SIVA KuMA REDDY M"
   tasks:
   - name: print te infomation
     ansible.builtin.debug:
-     msg: "Hi I am trainer Devops with Aws, Dration is: 120hrs, Trainer: siva reddy M"
+     msg: "Hi I am trainer {{ COuRSE}}, Dration is: {{DuRATION}}, Trainer: {{TRAINER}}"
