@@ -5,3 +5,11 @@
    - name: print the facts
      ansible.builtin.debug:
        msg: "{{ansible_facts}}"
+
+   - name: install nginx in redhat
+     ansible.builtin.dnf:
+     when: ansible_os_family == "RedHat"
+
+   - name: install nginx in debain (or) ubuntu
+     ansible.builtin.apt:
+     when: ansible_os_family == "Debian"
