@@ -8,3 +8,7 @@
   - name: print te infomation
     ansible.builtin.debug:
      msg: "user info: {{USER}}"
+
+  - name: create the USER if not there
+    ansible.builtin.command: useradd expense
+    when: rc | int >= 1
