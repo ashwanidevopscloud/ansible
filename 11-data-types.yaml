@@ -1,0 +1,21 @@
+- name: data taypes
+  hosts: web
+  vars:
+   cose: "Devops with aws" # sting
+   time: 120 #nmberu
+   live: true #boolean
+   topics: #list -
+    - linx
+    - shell
+    - ansible
+    - aws
+    - terraform
+    tools: #map/Dict
+      ci: jenkins #sting
+      cm: ansible
+      clod: aws 
+
+  tasks:
+   - name: dat atypes declaation
+     ansible.builtin.debug:
+      msg: "Hi i aam learning {{cose}}, time is {{time}} with topics are {{topics}} & {{ live }} woking on tools are{{tools}}"
