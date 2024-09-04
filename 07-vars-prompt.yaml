@@ -3,10 +3,15 @@
   vars_prompt:
    - name: COuRSE
      prompt: Please enter the cousre name
+     private: false
    - name: TRAINER
      prompt: enter the trainer name
+     private: false
+
    - name: DuRATION
      prompt: please enter the trainer name
+     private: false
+
 
   tasks:
   - name: variable from the pompt coming...
