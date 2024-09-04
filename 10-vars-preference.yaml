@@ -1,8 +1,8 @@
 - name: variables from pefrence order
   hosts: web
-  vars:
-   corse: "i am coming from play level variables"
-   time: "6hs"
+  # vars:
+  #  corse: "i am coming from play level variables"
+  #  time: "6hs"
   # vars_files:
   #  - vars.yaml
   # vars_prompt:
