@@ -1,0 +1,6 @@
+- name: variables from the inventory
+  hosts: web
+  tasks:
+  - name: variables ae coming fom inventory
+    ansible.builtin.debug:
+     msg: "Hi i am leaning {{CORSE}} traine is {{TRAINER}} dtime is {{TIME}} "
