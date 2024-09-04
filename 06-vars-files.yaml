@@ -1,6 +1,5 @@
 - name: variables from the files
   hosts: web
-  become: yes
   vars-files:
    -vars.yaml
   tasks: 
