@@ -5,8 +5,8 @@
    - name: loops names priniting
      ansible.builtin.debug:
       msg: "Print the loops names {{item}}"
-    loop:
-     - nginx
-     - mysql
-     - postfix
-     - nodejs
+     loop:
+      - nginx
+      - mysql
+      - postfix
+      - nodejs
