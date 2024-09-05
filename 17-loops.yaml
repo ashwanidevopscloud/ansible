@@ -1,0 +1,12 @@
+- name: loops demo
+  hosts: web
+  become: yes
+  tasks:
+   - name: loops names priniting
+     ansible.builtin.debug:
+      msg: "Print the loops names {{item}}"
+    loop:
+     - nginx
+     - mysql
+     - postfix
+     - nodejs
